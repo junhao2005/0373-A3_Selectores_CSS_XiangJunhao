@@ -1,0 +1,6 @@
+* {  /*Regla 1 selector universal * para cambiar el tipo de fuente del documento*/
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
