@@ -4,3 +4,67 @@
     font-weight: <weight>;
     font-style: normal;
 }
+
+body { /*Recla 2 ajustar el body de los contenidos*/
+    margin: 0;
+    padding: 20%;
+}
+
+h1 { /*Recla 3 ajustar el h1 cambiar color y centrar*/
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+.selector { /*Recla 4 los de clase selector tienen color lightcyan*/
+    color: lightcyan;
+    padding: 5%;
+    border: solid darkcyan 1px; /*Recla 5 tiene un relleno de 5%, un borde solid darkcyanpx y esquinas redondeadas*/
+    border-radius: 5px;
+}
+
+#universal { /* Regla 6 Los elementos con identificador (id) universal tendrán color lightgoldenrodyellow*/
+    color: lightgoldenrodyellow;
+}
+
+h2.selector, h2#universal { /*Regla 7. Los elementos h2 con clase selector y los elementos h2 con identificador (id) universal tendrán color de fondo darkcyan, relleno de 1% y esquinas redondeadas con valor de 5px*/
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+
+span { /* Regla 8 para los elementos span */
+    font-weight: 900; 
+    background-color: black; 
+    color: white; 
+}
+
+/* Regla 9 para los elementos <a> que son hijos directos de algún <li> */
+li > a {
+    text-decoration: none; /* Elimina el subrayado del texto de enlace */
+}
+
+
+/* Regla 10 para los elementos h3 */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529); 
+    padding: 0.5px; 
+    border-radius: 5px; 
+}
+
+#gallery div { /* Regla 11 para los elementos div y con id gallery*/
+    width: 100%;
+}
+
+img { /* Regla 12 para los img*/
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
