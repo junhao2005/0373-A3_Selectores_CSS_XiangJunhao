@@ -64,6 +64,7 @@ img { /* Regla 12 para los img*/
 }
 
 table {
+    width: 100%;
     border-collapse: collapse;
     padding: 20%;
     border: solid darkcyan 1px;
